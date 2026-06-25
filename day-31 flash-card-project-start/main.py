@@ -7,12 +7,19 @@ BACKGROUND_COLOR = "#B1DDC6"
 current_card = {}
 
 
-# The problem with this try-catch block is that it doesn't account for when words_to_learn.csv gets emptied
-# and then you start forgetting the words because this app doesn't generate flashcards anymore
+# Fixed: Handled FileNotFoundError for first-time users
+# and EmptyDataError if words_to_learn.csv is empty to prevent crashes.
+try:
+    data = pandas.read_csv('data/words_to_learn.csv')
+except (FileNotFoundError, pandas.errors.EmptyDataError):
+    original_data = pandas.read_csv('data/french_words.csv')
+    to_learn = original_data.to_dict(orient='records')
+else:
+    to_learn = data.to_dict(orient='records')
 
 try:
     data = pandas.read_csv('data/words_to_learn.csv')
-except FileNotFoundError:
+except (FileNotFoundError, pandas.errors.EmptyDataError):
     original_data = pandas.read_csv('data/french_words.csv')
     to_learn = original_data.to_dict(orient='records')
 else:
