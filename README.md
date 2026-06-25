@@ -21,7 +21,7 @@ My current focus is on:
 | 27 | Mile to Km Converter | ✅ Done | `Tkinter`, `*args`, `**kwargs`. |
 | 28 | Pomodoro App | ✅ Done | UI Timers, `after()` method. |
 | 29-30 | **Password Manager** | ✅ Done | **Day 29:** UI & File I/O. **Day 30:** JSON data & Exception handling (`try/except`). |
-| 31 | **Flash Card App** | 🏗️ **In Progress** | UI Layout, French-English translation logic. |
+| 31 | **Flash Card App** | ✅ Done | UI Layout, French-English translation logic. |
 
 ---
 
