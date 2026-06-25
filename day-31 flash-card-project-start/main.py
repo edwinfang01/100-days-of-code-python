@@ -6,6 +6,10 @@ import pandas
 BACKGROUND_COLOR = "#B1DDC6"
 current_card = {}
 
+
+# The problem with this try-catch block is that it doesn't account for when words_to_learn.csv gets emptied
+# and then you start forgetting the words because this app doesn't generate flashcards anymore
+
 try:
     data = pandas.read_csv('data/words_to_learn.csv')
 except FileNotFoundError:
@@ -18,7 +22,7 @@ def generate_new_flashcard():
     global current_card, flip_timer
     try:
         window.after_cancel(flip_timer)
-    except:
+    except NameError:
         pass
     current_card = random.choice(to_learn)
     canvas.itemconfig(card_word, text=current_card['French'], fill='black')
