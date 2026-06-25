@@ -19,10 +19,9 @@ My current focus is on:
 | 25 | U.S. States Game | ✅ Done | `Pandas`, CSV reading, Coordinate systems. |
 | 26 | NATO Alphabet | ✅ Done | List & Dictionary Comprehensions. |
 | 27 | Mile to Km Converter | ✅ Done | `Tkinter`, `*args`, `**kwargs`. |
-| 28 | Pomodoro App | ✅ Done | Dynamic Typing, UI Timers, `after()` method. |
-| 29 | Password Manager | ✅ Done | Local File I/O, UI Design, Tkinter. |
-| 30 | Improved Password Manager | ✅ Done | Exception Handling (`try/except`), JSON management. |
-| 31 | **Flash Card App (Capstone)** | 🏗️ **In Progress** | UI Layout, French-English translation logic. |
+| 28 | Pomodoro App | ✅ Done | UI Timers, `after()` method. |
+| 29-30 | **Password Manager** | ✅ Done | **Day 29:** UI & File I/O. **Day 30:** JSON data & Exception handling (`try/except`). |
+| 31 | **Flash Card App** | 🏗️ **In Progress** | UI Layout, French-English translation logic. |
 
 ---
 
