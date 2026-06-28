@@ -24,6 +24,7 @@ My current focus is on:
 | 31 | **Flash Card App** | ✅ Done | UI Layout, French-English translation logic. |
 | 32 | Automated Birthday Wisher | ✅ Done | smtplib, datetime, Environment Variables, Security. |
 | 33 | ISS Overhead Notifier | ✅ Done | Working with APIs (`requests`), JSON parsing, API parameters, and `smtplib` for automated alerts. |
+| 34 | Quizzler App | ✅ Done | Class-based UI development, API calls with parameters, **Type Hinting**, and HTML unescaping for text data. |
 
 ---
 
