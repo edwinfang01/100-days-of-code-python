@@ -25,6 +25,10 @@ My current focus is on:
 | 32 | Automated Birthday Wisher | ✅ Done | smtplib, datetime, Environment Variables, Security. |
 | 33 | ISS Overhead Notifier | ✅ Done | Working with APIs (`requests`), JSON parsing, API parameters, and `smtplib` for automated alerts. |
 | 34 | Quizzler App | ✅ Done | Class-based UI development, API calls with parameters, **Type Hinting**, and HTML unescaping for text data. |
+| 35 | Rain Alert (WhatsApp) | ✅ Done | API Authentication, **Twilio WhatsApp Sandbox**, OpenWeatherMap API, and JSON slicing. |
+
+💡 Decision & Problem Solving:
+In Day 35, I pivoted from Twilio SMS to the Twilio WhatsApp API. This was due to regional limitations with trial SMS services. I successfully configured the Twilio Sandbox to receive automated weather alerts directly on my phone via WhatsApp.
 
 ---
 
