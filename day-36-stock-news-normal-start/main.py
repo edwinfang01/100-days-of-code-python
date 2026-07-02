@@ -84,7 +84,7 @@ if abs(diff_percent) > 5:
 
     #Create a new list of the first 3 articles' headline and description using list comprehension.
 
-    formatted_articles: list[str] = [f"Headline {article['title']} \nBrief: {article['description']}" for article in three_articles]
+    formatted_articles: list[str] = [f"Headline: {article['title']} \nBrief: {article['description']}" for article in three_articles]
 
     print(formatted_articles[0])
 
@@ -96,3 +96,4 @@ if abs(diff_percent) > 5:
         from_="whatsapp:+14155238886",
         to=f"whatsapp:{my_phone_number}",
         )
+        print(message.status)
