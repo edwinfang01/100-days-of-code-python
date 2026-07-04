@@ -28,6 +28,7 @@ My current focus is on:
 | 35 | Rain Alert (WhatsApp) | ✅ Done | API calls, JSON slicing. **[See Automated Bot Version 🤖](https://github.com/edwinfang01/automated-day-35-rain-alert)** |
 | 36 | Stock Trading News Alert | ✅ Done | Integration of multiple APIs (Stock + News), percentage change logic, and automated WhatsApp/SMS alerts. |
 | 37 | Habit Tracker | ✅ Done | Advanced HTTP Requests (POST/PUT/DELETE) & Headers. <br> **Live Graph:** <br> [![Habit Graph](https://pixe.la/v1/users/yaboiamai/graphs/graph1.svg)](https://pixe.la/v1/users/yaboiamai/graphs/graph1.html) |
+| 38 | Workout Tracker (NLP) | ✅ Done | **Natural Language Processing (NLP)** to structure workout data, Google Sheets API integration (Sheety API), and secure Bearer Token authentication. |
 
 💡 Decision & Problem Solving:
 In Day 35, I pivoted from Twilio SMS to the Twilio WhatsApp API. This was due to regional limitations with trial SMS services. I successfully configured the Twilio Sandbox to receive automated weather alerts directly on my phone via WhatsApp.
