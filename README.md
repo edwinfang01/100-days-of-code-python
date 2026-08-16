@@ -35,10 +35,12 @@ My current focus is on:
 | 42 | HTML Forms & Tables | ✅ Done | Intermediate HTML: Creating complex data tables and building interactive user forms. |
 | 43 | Personal Website (CSS Intro) | ✅ Done | Introduction to CSS: Inline, internal, and external styling, selectors, and text formatting. |
 | 44 | Portfolio Website (CSS Intermediate) | ✅ Done | CSS Positioning, the Box Model, layouts, and static web deployment. |
-| 45 | Top 100 Movies Scraper | ✅ Done | **Web Scraping** with `BeautifulSoup` & `requests`, parsing HTML data, and automation. |
+| 45 | Top 100 Movies Scraper | ✅ Done | **Web Scraping** with `BeautifulSoup` & `requests`. Adapted code to target the live, modern Empire Online website layout. |
 
 💡 Decision & Problem Solving:
-In Day 35, I pivoted from Twilio SMS to the Twilio WhatsApp API. This was due to regional limitations with trial SMS services. I successfully configured the Twilio Sandbox to receive automated weather alerts directly on my phone via WhatsApp.
+- **Day 35:** I pivoted from Twilio SMS to the Twilio WhatsApp API due to regional limitations with trial SMS services. I successfully configured the Twilio Sandbox to receive automated weather alerts directly on my phone.
+- **Day 45:** The course's archived Wayback Machine link for the Empire article was broken. I investigated the live Empire Online website, analyzed its updated DOM structure, and rewrote the parsing logic to scrape the top 100 movies from their current live page.
+
 
 ---
 
