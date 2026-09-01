@@ -45,6 +45,8 @@ My current focus is on:
 💡 Decision & Problem Solving:
 - **Day 35:** I pivoted from Twilio SMS to the Twilio WhatsApp API due to regional limitations with trial SMS services. I successfully configured the Twilio Sandbox to receive automated weather alerts directly on my phone.
 - **Day 45:** The course's archived Wayback Machine link for the Empire article was broken. I investigated the live Empire Online website, analyzed its updated DOM structure, and rewrote the parsing logic to scrape the top 100 movies from their current live page.
+- **Day 46 (Performance Optimization):** To avoid redundant network requests to the Billboard website during testing, I integrated `requests_cache`. This caches HTTP responses locally, speeding up execution and preventing potential IP rate-limiting.
+- **Day 47 (Localization & Scraping Fix):** When scraping Amazon from my local region, prices defaulted to Dominican Pesos (DOP) or altered the DOM structure. I resolved this by injecting explicit localization cookies (`"i18n-prefs": "USD"` and `"lc-main": "en_US"`) into the request headers to consistently force the US/English store interface.
 
 
 ---
