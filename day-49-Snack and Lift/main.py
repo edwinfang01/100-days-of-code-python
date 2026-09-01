@@ -1,5 +1,4 @@
 import time
-
 from selenium import webdriver
 from selenium.common import StaleElementReferenceException, TimeoutException
 from selenium.webdriver.common.by import By
