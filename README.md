@@ -53,7 +53,7 @@ My current focus is on:
 
 ## 🛠️ Current Tech Stack
 - **Language:** Python 3.x
-- **Libraries & Frameworks:** Pandas, Tkinter, BeautifulSoup4, Requests, **Requests-Cache**, **Selenium WebDriver**, **Spotify**.
+- **Libraries & Frameworks:** Pandas, Tkinter, BeautifulSoup4, Requests, **Requests-Cache**, **Selenium WebDriver**, **Spotipy**.
 - **Web Foundations:** HTML5, CSS3.
 - **Focus:** Object-Oriented Programming (OOP), Web Scraping & **Browser Automation**.
 
