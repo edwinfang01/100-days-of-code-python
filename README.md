@@ -36,6 +36,11 @@ My current focus is on:
 | 43 | Personal Website (CSS Intro) | ✅ Done | Introduction to CSS: Inline, internal, and external styling, selectors, and text formatting. |
 | 44 | Portfolio Website (CSS Intermediate) | ✅ Done | CSS Positioning, the Box Model, layouts, and static web deployment. |
 | 45 | Top 100 Movies Scraper | ✅ Done | **Web Scraping** with `BeautifulSoup` & `requests`. Adapted code to target the live, modern Empire Online website layout. |
+| 46 | Musical Time Machine | ✅ Done | **Spotify API (Spotipy)**, Web Scraping (Billboard Hot 100), and **`requests_cache`** to optimize network requests.
+| 47 | Automated Amazon Price Tracker | ✅ Done | Web Scraping (BeautifulSoup), automated email alerts (smtplib), and **localization via Cookies** (USD/en_US) handling.
+| 48 | Cookie Clicker Bot | ✅ Done | **Selenium WebDriver**, browser automation, interaction with dynamic elements, and real-time game logic.
+| 49 | Snack and Lift | ✅ Done | **Selenium WebDriver**, advanced web flow automation, and multi-page navigation.
+
 
 💡 Decision & Problem Solving:
 - **Day 35:** I pivoted from Twilio SMS to the Twilio WhatsApp API due to regional limitations with trial SMS services. I successfully configured the Twilio Sandbox to receive automated weather alerts directly on my phone.
