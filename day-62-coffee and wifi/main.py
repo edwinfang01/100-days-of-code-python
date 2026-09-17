@@ -72,7 +72,7 @@ def home():
 def add_cafe():
     form = CafeForm()
     if form.validate_on_submit():
-        form_data = [field.data.strftime("%I:%M %p") if ("time" in field.name or field.type == "TimeField") else field.data
+        form_data = [field.data.strftime("%I:%M %p")[1:] if ("time" in field.name or field.type == "TimeField") else field.data
                      for field in form if not field.type in ("CSRFTokenField", "SubmitField")]
         # print(form_data)
         form_data = ",".join(form_data)
