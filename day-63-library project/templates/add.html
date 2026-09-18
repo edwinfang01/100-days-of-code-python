@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Add Book</title>
+  </head>
+  <body>
+    <form action="{{ url_for('add') }}" method="POST">
+      {{ form.csrf_token }}
+<!--      <label>Book Name</label>-->
+<!--      <input type="text" />-->
+<!--      <label>Book Author</label>-->
+<!--      <input type="text" />-->
+<!--      <label>Rating</label>-->
+<!--      <input type="text" />-->
+
+      {% for field in form %}
+        <p>
+          {% if not field.type in ("CSRFTokenField", "SubmitField") %}
+
+            {{ field.label }} <br> {{ field }}
+            {% for err in field.errors %}
+              <span style="color: red"> {{ err }} </span>
+            {% endfor %}
+
+          {% endif %}
+        </p>
+      {% endfor %}
+      <button type="submit">Add Book</button>
+    </form>
+  </body>
+</html>
